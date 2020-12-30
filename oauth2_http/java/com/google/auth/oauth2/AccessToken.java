@@ -62,6 +62,8 @@ public class AccessToken implements Serializable {
     return tokenValue;
   }
 
+public void foo() { System.out.println("bar"); }
+
   /**
    * Time when access token will expire.
    *
